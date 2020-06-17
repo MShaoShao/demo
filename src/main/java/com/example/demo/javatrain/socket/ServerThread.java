@@ -1,4 +1,4 @@
-package com.example.demo.javatrain;
+package com.example.demo.javatrain.socket;
 
 import lombok.extern.slf4j.Slf4j;
 

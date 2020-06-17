@@ -1,9 +1,8 @@
-package com.example.demo.javatrain;
+package com.example.demo.javatrain.socket;
 
 import lombok.extern.slf4j.Slf4j;
 
 import java.net.ServerSocket;
-import java.net.Socket;
 
 /**
  * Tcp服务端功能实现
