@@ -42,5 +42,6 @@ public class StringsTrain {
         String name88 = "123456789";
         System.out.println("两个字符串共有的最长后缀字符串为："+Strings.commonSuffix(name8,name88));
         //9. validSurrogatePairAt判断字符串是否超过定义的index值，若超过则返回false，没超过则返回true(只在test测试中存在，当前不做解释)
+        System.out.println();
     }
 }
