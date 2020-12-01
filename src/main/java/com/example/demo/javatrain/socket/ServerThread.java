@@ -22,6 +22,7 @@ public class ServerThread extends Thread {
         this.socket = socket;
     }
 
+    @Override
     public void run() {
         try {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);

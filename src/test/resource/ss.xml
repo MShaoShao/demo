@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paramConfigs>
+    <!--    SNMPV1连接参数显示-->
+    <SNMP type="SNMP" displayName="SNMP">
+        <params>
+            <param name="version" paramType="ENUM" dataType="INTEGER" defaultValue="1" displayName="版本号"
+                   required="true"
+                   description="描述">
+                <items>
+                    <item name="v1" value="0"/>
+                    <item name="v2c" value="1"/>
+                    <item name="v3" value="3"/>
+                </items>
+            </param>
+            <param name="port" paramType="TEXT" dataType="INTEGER" defaultValue="161" displayName="端口号" min="1"
+                   max="65535" description="端口号1-65535"/>
+            <param name="community" paramType="TEXT" dataType="STRING" defaultValue="public"
+                   displayName="只读共同体"/>
+            <param name="writeCommunity" paramType="TEXT" dataType="STRING" defaultValue="public"
+                   displayName="读写共同体"/>
+            <param name="secName" paramType="TEXT" dataType="STRING" defaultValue="public" displayName="用户名" showCondition="version==3"/>
+            <param name="secLevel" paramType="ENUM" dataType="INTEGER" defaultValue="1" displayName="安全级别" showCondition="version==3">
+                <items>
+                    <item name="NOAUTH_NOPRIV" value="1"/>
+                    <item name="AUTH_NOPRIV" value="2"/>
+                    <item name="AUTH_PRIV" value="3"/>
+                </items>
+            </param>
+            <param name="authProtocol" paramType="ENUM" dataType="STRING" defaultValue="MD5" displayName="认证协议"
+                   showCondition="version==3&amp;&amp;secLevel>=2">
+                <items>
+                    <item name="AuthMD5" value="MD5"/>
+                    <item name="AuthSHA" value="SHA"/>
+                </items>
+            </param>
+            <param name="authPassword" paramType="PASSWORD" dataType="STRING" defaultValue="" displayName="认证密码"
+                   showCondition="version==3&amp;&amp;secLevel>=2"/>
+            <param name="privProtocol" paramType="ENUM" dataType="STRING" defaultValue="DES" displayName="加密协议"
+                   showCondition="version==3&amp;&amp;secLevel==3">
+                <items>
+                    <item name="PrivDES" value="DES"/>
+                    <item name="Priv3DES" value="3DES"/>
+                    <item name="PrivAES128" value="AES128"/>
+                    <item name="PrivAES192" value="AES192"/>
+                    <item name="PrivAES256" value="AES256"/>
+                </items>
+            </param>
+            <param name="privPassword" paramType="PASSWORD" dataType="STRING" defaultValue="" displayName="加密密码"
+                   showCondition="version==3&amp;&amp;secLevel==3"/>
+        </params>
+        <testParams>
+            <param name="ip" paramType="TEXT" dataType="STRING" defaultValue="" displayName="ip"/>
+        </testParams>
+    </SNMP>
+    <!--    MYSQL连接参数显示-->
+    <MYSQL type="DB_MYSQL" displayName="JDBC（MySQL）">
+        <params>
+            <param name="user" paramType="PASSWORD" dataType="STRING" defaultValue="" displayName="用户名" required="true"/>
+            <param name="password" paramType="PASSWORD" dataType="STRING" defaultValue="" displayName="密码"/>
+            <param name="port" paramType="TEXT" dataType="INTEGER" min="1" max="65535" defaultValue="3306" displayName="端口" required="true"/>
+        </params>
+        <testParams>
+            <param name="ip" paramType="TEXT" dataType="STRING" defaultValue="" displayName="ip"/>
+        </testParams>
+    </MYSQL>
+</paramConfigs>

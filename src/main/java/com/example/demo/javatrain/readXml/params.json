@@ -1,0 +1,238 @@
+{
+  "paramConfigs": [
+    {
+      "MYSQL": [
+        {
+          "displayName": "JDBC（MySQL）",
+          "testParams": [
+            {
+              "param": [
+                {
+                  "paramType": "TEXT",
+                  "defaultValue": "",
+                  "displayName": "ip",
+                  "dataType": "STRING",
+                  "name": "ip"
+                }
+              ]
+            }
+          ],
+          "type": "DB_MYSQL",
+          "params": [
+            {
+              "param": [
+                {
+                  "paramType": "PASSWORD",
+                  "defaultValue": "",
+                  "displayName": "用户名",
+                  "dataType": "STRING",
+                  "name": "user",
+                  "required": "true"
+                },
+                {
+                  "paramType": "PASSWORD",
+                  "defaultValue": "",
+                  "displayName": "密码",
+                  "dataType": "STRING",
+                  "name": "password"
+                },
+                {
+                  "paramType": "TEXT",
+                  "min": "1",
+                  "max": "65535",
+                  "defaultValue": "3306",
+                  "displayName": "端口",
+                  "dataType": "INTEGER",
+                  "name": "port",
+                  "required": "true"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "SNMP": [
+        {
+          "displayName": "SNMP",
+          "testParams": [
+            {
+              "param": [
+                {
+                  "paramType": "TEXT",
+                  "defaultValue": "",
+                  "displayName": "ip",
+                  "dataType": "STRING",
+                  "name": "ip"
+                }
+              ]
+            }
+          ],
+          "type": "SNMP",
+          "params": [
+            {
+              "param": [
+                {
+                  "paramType": "ENUM",
+                  "defaultValue": "1",
+                  "displayName": "版本号",
+                  "dataType": "INTEGER",
+                  "name": "version",
+                  "description": "描述",
+                  "items": [
+                    {
+                      "item": [
+                        {
+                          "name": "v1",
+                          "value": "0"
+                        },
+                        {
+                          "name": "v2c",
+                          "value": "1"
+                        },
+                        {
+                          "name": "v3",
+                          "value": "3"
+                        }
+                      ]
+                    }
+                  ],
+                  "required": "true"
+                },
+                {
+                  "paramType": "TEXT",
+                  "min": "1",
+                  "max": "65535",
+                  "defaultValue": "161",
+                  "displayName": "端口号",
+                  "dataType": "INTEGER",
+                  "name": "port",
+                  "description": "端口号1-65535"
+                },
+                {
+                  "paramType": "TEXT",
+                  "defaultValue": "public",
+                  "displayName": "只读共同体",
+                  "dataType": "STRING",
+                  "name": "community"
+                },
+                {
+                  "paramType": "TEXT",
+                  "defaultValue": "public",
+                  "displayName": "读写共同体",
+                  "dataType": "STRING",
+                  "name": "writeCommunity"
+                },
+                {
+                  "paramType": "TEXT",
+                  "showCondition": "version==3",
+                  "defaultValue": "public",
+                  "displayName": "用户名",
+                  "dataType": "STRING",
+                  "name": "secName"
+                },
+                {
+                  "paramType": "ENUM",
+                  "showCondition": "version==3",
+                  "defaultValue": "1",
+                  "displayName": "安全级别",
+                  "dataType": "INTEGER",
+                  "name": "secLevel",
+                  "items": [
+                    {
+                      "item": [
+                        {
+                          "name": "NOAUTH_NOPRIV",
+                          "value": "1"
+                        },
+                        {
+                          "name": "AUTH_NOPRIV",
+                          "value": "2"
+                        },
+                        {
+                          "name": "AUTH_PRIV",
+                          "value": "3"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "paramType": "ENUM",
+                  "showCondition": "version==3&&secLevel>=2",
+                  "defaultValue": "MD5",
+                  "displayName": "认证协议",
+                  "dataType": "STRING",
+                  "name": "authProtocol",
+                  "items": [
+                    {
+                      "item": [
+                        {
+                          "name": "AuthMD5",
+                          "value": "MD5"
+                        },
+                        {
+                          "name": "AuthSHA",
+                          "value": "SHA"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "paramType": "PASSWORD",
+                  "showCondition": "version==3&&secLevel>=2",
+                  "defaultValue": "",
+                  "displayName": "认证密码",
+                  "dataType": "STRING",
+                  "name": "authPassword"
+                },
+                {
+                  "paramType": "ENUM",
+                  "showCondition": "version==3&&secLevel==3",
+                  "defaultValue": "DES",
+                  "displayName": "加密协议",
+                  "dataType": "STRING",
+                  "name": "privProtocol",
+                  "items": [
+                    {
+                      "item": [
+                        {
+                          "name": "PrivDES",
+                          "value": "DES"
+                        },
+                        {
+                          "name": "Priv3DES",
+                          "value": "3DES"
+                        },
+                        {
+                          "name": "PrivAES128",
+                          "value": "AES128"
+                        },
+                        {
+                          "name": "PrivAES192",
+                          "value": "AES192"
+                        },
+                        {
+                          "name": "PrivAES256",
+                          "value": "AES256"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "paramType": "PASSWORD",
+                  "showCondition": "version==3&&secLevel==3",
+                  "defaultValue": "",
+                  "displayName": "加密密码",
+                  "dataType": "STRING",
+                  "name": "privPassword"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1501 @@
+{
+  "code": "OK",
+  "message": "成功",
+  "data": [
+    {
+      "ci": [
+        {
+          "id": "000000000022ab8b",
+          "typeCode": "ruijieSwitch",
+          "manageStatus": 2,
+          "attributes": {
+            "minMacAddress": "00-74-9C-8F-F3-7D",
+            "serialNum": "G1MVD9P000289",
+            "ipv6Address": "2001:167::1,fe80::274:9cff:fe8f:f37e",
+            "displayName": "HuiJu166.2",
+            "ipAddress": "172.17.161.1",
+            "ipAddressList": "172.17.161.1,172.17.163.1,172.17.164.1,172.17.166.2,172.17.166.9,172.17.166.17,172.17.168.1",
+            "macAddress": "00-74-9C-8F-F3-7D",
+            "poeSupported": true,
+            "systemOID": "1.3.6.1.4.1.4881.1.1.10.1.114",
+            "name": "HuiJu166.2",
+            "model": "",
+            "company": "ruijie",
+            "connection": {
+              "SNMP": {
+                "id": "00000000002261a9",
+                "params": "NN0dnYo4LEjWRrj2IgJPm6ooD4ZadbkUaHoUVMk9oli8UWvcx6oB8IlXkl0g3yBzoE2ICPUjE1UFyXAJWFsZKTZBlIotBuct"
+              }
+            },
+            "maxMacAddress": "00-74-9C-8F-F3-7E"
+          }
+        },
+        {
+          "id": "000000000022b440",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 100,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 100,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/1",
+            "name": "GigabitEthernet 0/1",
+            "index": "1"
+          }
+        },
+        {
+          "id": "000000000022b445",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/2",
+            "name": "GigabitEthernet 0/2",
+            "index": "2"
+          }
+        },
+        {
+          "id": "000000000022b44a",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/3",
+            "name": "GigabitEthernet 0/3",
+            "index": "3"
+          }
+        },
+        {
+          "id": "000000000022b44f",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/4",
+            "name": "GigabitEthernet 0/4",
+            "index": "4"
+          }
+        },
+        {
+          "id": "000000000022b104",
+          "resourceId": "000000000022ab35",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-C4-3D-14",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/7",
+            "name": "GigabitEthernet 0/7",
+            "index": "7"
+          }
+        },
+        {
+          "id": "000000000022ab35",
+          "typeCode": "ruijieSwitch",
+          "manageStatus": 2,
+          "attributes": {
+            "minMacAddress": "00-74-9C-C4-3D-14",
+            "serialNum": "G1M416U000334",
+            "displayName": "AC-WS6008",
+            "ipAddress": "172.17.164.10",
+            "ipAddressList": "1.1.1.1,172.17.164.10",
+            "macAddress": "00-74-9C-C4-3D-14",
+            "poeSupported": false,
+            "systemOID": "1.3.6.1.4.1.4881.1.3.1.1.115",
+            "name": "AC-WS6008",
+            "model": "",
+            "company": "ruijie",
+            "connection": {
+              "SNMP": {
+                "id": "00000000002261a9",
+                "params": "NN0dnYo4LEjWRrj2IgJPm6ooD4ZadbkUaHoUVMk9oli8UWvcx6oB8IlXkl0g3yBzoE2ICPUjE1UFyXAJWFsZKTZBlIotBuct"
+              }
+            },
+            "maxMacAddress": "00-74-9C-C4-3D-14"
+          }
+        },
+        {
+          "id": "000000000022b454",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/5",
+            "name": "GigabitEthernet 0/5",
+            "index": "5"
+          }
+        },
+        {
+          "id": "000000000022b459",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/6",
+            "name": "GigabitEthernet 0/6",
+            "index": "6"
+          }
+        },
+        {
+          "id": "000000000022b45e",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/7",
+            "name": "GigabitEthernet 0/7",
+            "index": "7"
+          }
+        },
+        {
+          "id": "000000000022b463",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/8",
+            "name": "GigabitEthernet 0/8",
+            "index": "8"
+          }
+        },
+        {
+          "id": "000000000022b468",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/9",
+            "name": "GigabitEthernet 0/9",
+            "index": "9"
+          }
+        },
+        {
+          "id": "000000000022b46d",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/10",
+            "name": "GigabitEthernet 0/10",
+            "index": "10"
+          }
+        },
+        {
+          "id": "000000000022b845",
+          "resourceId": "000000000022aba5",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-96-22-9E",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/24",
+            "name": "GigabitEthernet 0/24",
+            "index": "24"
+          }
+        },
+        {
+          "id": "000000000022aba5",
+          "typeCode": "ruijieSwitch",
+          "manageStatus": 2,
+          "attributes": {
+            "minMacAddress": "00-74-9C-96-22-9E",
+            "serialNum": "G1M203P003491",
+            "ipv6Address": "2001:167::11,fe80::274:9cff:fe96:229f",
+            "displayName": "JR-S2910_166.20",
+            "ipAddress": "172.17.166.20",
+            "ipAddressList": "172.17.166.20",
+            "macAddress": "00-74-9C-96-22-9E",
+            "poeSupported": true,
+            "systemOID": "1.3.6.1.4.1.4881.1.1.10.1.177",
+            "name": "JR-S2910_166.20",
+            "model": "",
+            "company": "ruijie",
+            "connection": {
+              "SNMP": {
+                "id": "00000000002261a9",
+                "params": "NN0dnYo4LEjWRrj2IgJPm6ooD4ZadbkUaHoUVMk9oli8UWvcx6oB8IlXkl0g3yBzoE2ICPUjE1UFyXAJWFsZKTZBlIotBuct"
+              }
+            },
+            "maxMacAddress": "00-74-9C-96-22-9E"
+          }
+        },
+        {
+          "id": "000000000022b472",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/11",
+            "name": "GigabitEthernet 0/11",
+            "index": "11"
+          }
+        },
+        {
+          "id": "000000000022b477",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 100,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 100,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/12",
+            "name": "GigabitEthernet 0/12",
+            "index": "12"
+          }
+        },
+        {
+          "id": "000000000022b47c",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/13",
+            "name": "GigabitEthernet 0/13",
+            "index": "13"
+          }
+        },
+        {
+          "id": "000000000022b481",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/14",
+            "name": "GigabitEthernet 0/14",
+            "index": "14"
+          }
+        },
+        {
+          "id": "000000000022b486",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7E",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/15",
+            "name": "GigabitEthernet 0/15",
+            "index": "15"
+          }
+        },
+        {
+          "id": "000000000022b48b",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/16",
+            "name": "GigabitEthernet 0/16",
+            "index": "16"
+          }
+        },
+        {
+          "id": "000000000022b490",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/17",
+            "name": "GigabitEthernet 0/17",
+            "index": "17"
+          }
+        },
+        {
+          "id": "000000000022b495",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/18",
+            "name": "GigabitEthernet 0/18",
+            "index": "18"
+          }
+        },
+        {
+          "id": "000000000022b49a",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/19",
+            "name": "GigabitEthernet 0/19",
+            "index": "19"
+          }
+        },
+        {
+          "id": "000000000022b4a5",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/20",
+            "name": "GigabitEthernet 0/20",
+            "index": "20"
+          }
+        },
+        {
+          "id": "000000000022b4c2",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 10,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 10,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/21",
+            "name": "GigabitEthernet 0/21",
+            "index": "21"
+          }
+        },
+        {
+          "id": "000000000022b4d1",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/22",
+            "name": "GigabitEthernet 0/22",
+            "index": "22"
+          }
+        },
+        {
+          "id": "000000000022b4de",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/23",
+            "name": "GigabitEthernet 0/23",
+            "index": "23"
+          }
+        },
+        {
+          "id": "000000000022b4f1",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/24",
+            "name": "GigabitEthernet 0/24",
+            "index": "24"
+          }
+        },
+        {
+          "id": "000000000022b4fe",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/25",
+            "name": "GigabitEthernet 0/25",
+            "index": "25"
+          }
+        },
+        {
+          "id": "000000000022b505",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/26",
+            "name": "GigabitEthernet 0/26",
+            "index": "26"
+          }
+        },
+        {
+          "id": "000000000022b50c",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/27",
+            "name": "GigabitEthernet 0/27",
+            "index": "27"
+          }
+        },
+        {
+          "id": "000000000022b513",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/28",
+            "name": "GigabitEthernet 0/28",
+            "index": "28"
+          }
+        },
+        {
+          "id": "000000000022b51c",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/29",
+            "name": "GigabitEthernet 0/29",
+            "index": "29"
+          }
+        },
+        {
+          "id": "000000000022b523",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/30",
+            "name": "GigabitEthernet 0/30",
+            "index": "30"
+          }
+        },
+        {
+          "id": "000000000022b52a",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/31",
+            "name": "GigabitEthernet 0/31",
+            "index": "31"
+          }
+        },
+        {
+          "id": "000000000022b531",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/32",
+            "name": "GigabitEthernet 0/32",
+            "index": "32"
+          }
+        },
+        {
+          "id": "000000000022b538",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/33",
+            "name": "GigabitEthernet 0/33",
+            "index": "33"
+          }
+        },
+        {
+          "id": "000000000022b541",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/34",
+            "name": "GigabitEthernet 0/34",
+            "index": "34"
+          }
+        },
+        {
+          "id": "000000000022b54a",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/35",
+            "name": "GigabitEthernet 0/35",
+            "index": "35"
+          }
+        },
+        {
+          "id": "000000000022b553",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/36",
+            "name": "GigabitEthernet 0/36",
+            "index": "36"
+          }
+        },
+        {
+          "id": "000000000022b55c",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/37",
+            "name": "GigabitEthernet 0/37",
+            "index": "37"
+          }
+        },
+        {
+          "id": "000000000022b563",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/38",
+            "name": "GigabitEthernet 0/38",
+            "index": "38"
+          }
+        },
+        {
+          "id": "000000000022b56a",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/39",
+            "name": "GigabitEthernet 0/39",
+            "index": "39"
+          }
+        },
+        {
+          "id": "000000000022b573",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/40",
+            "name": "GigabitEthernet 0/40",
+            "index": "40"
+          }
+        },
+        {
+          "id": "000000000022b57c",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/41",
+            "name": "GigabitEthernet 0/41",
+            "index": "41"
+          }
+        },
+        {
+          "id": "000000000022b585",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7E",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/42",
+            "name": "GigabitEthernet 0/42",
+            "index": "42"
+          }
+        },
+        {
+          "id": "000000000022b590",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/43",
+            "name": "GigabitEthernet 0/43",
+            "index": "43"
+          }
+        },
+        {
+          "id": "000000000022b599",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/44",
+            "name": "GigabitEthernet 0/44",
+            "index": "44"
+          }
+        },
+        {
+          "id": "000000000022b5a4",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/45",
+            "name": "GigabitEthernet 0/45",
+            "index": "45"
+          }
+        },
+        {
+          "id": "000000000022b5ab",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/46",
+            "name": "GigabitEthernet 0/46",
+            "index": "46"
+          }
+        },
+        {
+          "id": "000000000022b5b2",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 2,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/47",
+            "name": "GigabitEthernet 0/47",
+            "index": "47"
+          }
+        },
+        {
+          "id": "000000000022b5bb",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7E",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/48",
+            "name": "GigabitEthernet 0/48",
+            "index": "48"
+          }
+        },
+        {
+          "id": "000000000022b5c2",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 53,
+            "displayName": "AggregatePort 1",
+            "name": "AggregatePort 1",
+            "index": "49"
+          }
+        },
+        {
+          "id": "000000000022ae57",
+          "resourceId": "000000000022ab1b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-1A-A9-76-03-DC",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/50",
+            "name": "GigabitEthernet 0/50",
+            "index": "50"
+          }
+        },
+        {
+          "id": "000000000022ab1b",
+          "typeCode": "ruijieSwitch",
+          "manageStatus": 2,
+          "attributes": {
+            "minMacAddress": "00-1A-A9-76-03-DC",
+            "serialNum": "2700DH5100237",
+            "ipv6Address": "2001:167::3,fe80::21a:a9ff:fe76:3dd",
+            "displayName": "S2652G-166.19",
+            "ipAddress": "172.17.166.19",
+            "ipAddressList": "172.17.166.19",
+            "macAddress": "00-1A-A9-76-03-DC",
+            "poeSupported": false,
+            "systemOID": "1.3.6.1.4.1.4881.1.1.10.1.107",
+            "name": "S2652G-166.19",
+            "model": "s2652G-E",
+            "company": "ruijie",
+            "connection": {
+              "SNMP": {
+                "id": "00000000002261a9",
+                "params": "NN0dnYo4LEjWRrj2IgJPm6ooD4ZadbkUaHoUVMk9oli8UWvcx6oB8IlXkl0g3yBzoE2ICPUjE1UFyXAJWFsZKTZBlIotBuct"
+              }
+            },
+            "maxMacAddress": "00-1A-A9-76-03-DC"
+          }
+        },
+        {
+          "id": "000000000022b5cb",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-74-9C-8F-F3-7D",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 53,
+            "displayName": "AggregatePort 2",
+            "name": "AggregatePort 2",
+            "index": "50"
+          }
+        },
+        {
+          "id": "000000000022ad1a",
+          "resourceId": "000000000022ab15",
+          "typeCode": "networkInterface",
+          "manageStatus": 2,
+          "attributes": {
+            "ifMACAddress": "00-1A-A9-C2-7A-A8",
+            "actualBandwidth": 1000,
+            "ifAdminStatus": 1,
+            "ifBandwidth": 1000,
+            "ifType": 6,
+            "displayName": "GigabitEthernet 0/50",
+            "name": "GigabitEthernet 0/50",
+            "index": "50"
+          }
+        },
+        {
+          "id": "000000000022ab15",
+          "typeCode": "ruijieSwitch",
+          "manageStatus": 2,
+          "attributes": {
+            "minMacAddress": "00-1A-A9-C2-7A-A8",
+            "serialNum": "2700EH8490397",
+            "ipv6Address": "2001:167::4,fe80::21a:a9ff:fec2:7aa9",
+            "displayName": "S2652G_166.18",
+            "ipAddress": "172.17.166.18",
+            "ipAddressList": "172.17.166.18",
+            "macAddress": "00-1A-A9-C2-7A-A8",
+            "poeSupported": false,
+            "systemOID": "1.3.6.1.4.1.4881.1.1.10.1.107",
+            "name": "S2652G_166.18",
+            "model": "s2652G-E",
+            "company": "ruijie",
+            "connection": {
+              "SNMP": {
+                "id": "00000000002261a9",
+                "params": "NN0dnYo4LEjWRrj2IgJPm6ooD4ZadbkUaHoUVMk9oli8UWvcx6oB8IlXkl0g3yBzoE2ICPUjE1UFyXAJWFsZKTZBlIotBuct"
+              }
+            },
+            "maxMacAddress": "00-1A-A9-C2-7A-A8"
+          }
+        },
+        {
+          "id": "000000000022b5d4",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "ruijiePowerSupply",
+          "manageStatus": 2,
+          "attributes": {
+            "name": "M5000E-AC500P(1.2)",
+            "index": "1.2",
+            "displayName": "M5000E-AC500P(1.2)"
+          }
+        },
+        {
+          "id": "000000000022b5dd",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "ruijieFan",
+          "manageStatus": 2,
+          "attributes": {
+            "name": "S5750E-FAN(1.1)",
+            "index": "1.1",
+            "displayName": "S5750E-FAN(1.1)"
+          }
+        },
+        {
+          "id": "000000000022b5e6",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "ruijieFan",
+          "manageStatus": 2,
+          "attributes": {
+            "name": "S5750E-FAN(1.2)",
+            "index": "1.2",
+            "displayName": "S5750E-FAN(1.2)"
+          }
+        },
+        {
+          "id": "000000000022b5ef",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "ruijieFan",
+          "manageStatus": 2,
+          "attributes": {
+            "name": "S5750E-FAN(1.3)",
+            "index": "1.3",
+            "displayName": "S5750E-FAN(1.3)"
+          }
+        },
+        {
+          "id": "000000000022b5f8",
+          "resourceId": "000000000022ab8b",
+          "typeCode": "ruijieBoard",
+          "manageStatus": 2,
+          "attributes": {
+            "name": "slot 0/0",
+            "index": "1.0",
+            "displayName": "slot 0/0"
+          }
+        }
+      ],
+      "relation": [
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b440",
+          "id": "000000000022b442",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b445",
+          "id": "000000000022b447",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b44a",
+          "id": "000000000022b44c",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b44f",
+          "id": "000000000022b451",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022b44f",
+          "to": "000000000022b104",
+          "id": "000000000022bacc",
+          "relationTypeCode": "connect",
+          "attributes": {}
+        },
+        {
+          "from": "000000000022b104",
+          "to": "000000000022ab35",
+          "id": "000000000022b105",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b454",
+          "id": "000000000022b456",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b459",
+          "id": "000000000022b45b",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b45e",
+          "id": "000000000022b460",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b463",
+          "id": "000000000022b465",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b468",
+          "id": "000000000022b46a",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b46d",
+          "id": "000000000022b46f",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022b46d",
+          "to": "000000000022b845",
+          "id": "000000000022baec",
+          "relationTypeCode": "connect",
+          "attributes": {}
+        },
+        {
+          "from": "000000000022b845",
+          "to": "000000000022aba5",
+          "id": "000000000022b846",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b472",
+          "id": "000000000022b474",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b477",
+          "id": "000000000022b479",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b47c",
+          "id": "000000000022b47e",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b481",
+          "id": "000000000022b483",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b486",
+          "id": "000000000022b488",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b48b",
+          "id": "000000000022b48d",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b490",
+          "id": "000000000022b492",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b495",
+          "id": "000000000022b497",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b49a",
+          "id": "000000000022b49c",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b4a5",
+          "id": "000000000022b4af",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b4c2",
+          "id": "000000000022b4c8",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b4d1",
+          "id": "000000000022b4d7",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b4de",
+          "id": "000000000022b4e6",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b4f1",
+          "id": "000000000022b4f5",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b4fe",
+          "id": "000000000022b500",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b505",
+          "id": "000000000022b507",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b50c",
+          "id": "000000000022b50e",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b513",
+          "id": "000000000022b517",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b51c",
+          "id": "000000000022b51e",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b523",
+          "id": "000000000022b525",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b52a",
+          "id": "000000000022b52c",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b531",
+          "id": "000000000022b533",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b538",
+          "id": "000000000022b53c",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b541",
+          "id": "000000000022b545",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b54a",
+          "id": "000000000022b54e",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b553",
+          "id": "000000000022b557",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b55c",
+          "id": "000000000022b55e",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b563",
+          "id": "000000000022b567",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b56a",
+          "id": "000000000022b56e",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b573",
+          "id": "000000000022b577",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b57c",
+          "id": "000000000022b57e",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b585",
+          "id": "000000000022b589",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b590",
+          "id": "000000000022b592",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b599",
+          "id": "000000000022b59d",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5a4",
+          "id": "000000000022b5a6",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5ab",
+          "id": "000000000022b5ad",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5b2",
+          "id": "000000000022b5b6",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5bb",
+          "id": "000000000022b5bd",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5c2",
+          "id": "000000000022b5c6",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022b5c2",
+          "to": "000000000022ae57",
+          "id": "000000000022ba7f",
+          "relationTypeCode": "connect",
+          "attributes": {}
+        },
+        {
+          "from": "000000000022ae57",
+          "to": "000000000022ab1b",
+          "id": "000000000022ae58",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5cb",
+          "id": "000000000022b5cf",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022b5cb",
+          "to": "000000000022ad1a",
+          "id": "000000000022babd",
+          "relationTypeCode": "connect",
+          "attributes": {}
+        },
+        {
+          "from": "000000000022ad1a",
+          "to": "000000000022ab15",
+          "id": "000000000022ad1b",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5d4",
+          "id": "000000000022b5d6",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5dd",
+          "id": "000000000022b5df",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5e6",
+          "id": "000000000022b5e8",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5ef",
+          "id": "000000000022b5f1",
+          "relationTypeCode": "compose",
+          "attributes": null
+        },
+        {
+          "from": "000000000022ab8b",
+          "to": "000000000022b5f8",
+          "id": "000000000022b5fa",
+          "relationTypeCode": "compose",
+          "attributes": null
+        }
+      ]
+    }
+  ]
+}
